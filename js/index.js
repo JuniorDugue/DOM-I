@@ -57,3 +57,7 @@ domIsAwesome.innerHTML = "DOM <br> is <br> Awesome";
 
 let ctaButton = document.querySelector(".cta button");
 ctaButton.innerHTML = "Get Started";
+
+// let ctaImg = document.getElementById("#cta-img");
+let ctaImg = document.getElementById("cta-img");
+ctaImg.setAttribute("src", siteContent["cta"]["img-src"]);
