@@ -41,9 +41,8 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-//task 
+//nav bar 
 let nav = document.querySelectorAll("nav a");
-// console.log(nav); 
 nav[0].innerHTML = "Services";
 nav[1].innerHTML = "Product";
 nav[2].innerHTML = "Vision";
@@ -61,3 +60,19 @@ ctaButton.innerHTML = "Get Started";
 // let ctaImg = document.getElementById("#cta-img");
 let ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute("src", siteContent["cta"]["img-src"]);
+
+//
+let topHeadings = document.querySelectorAll(".top-content h4");
+topHeadings[0].innerHTML = "Features";
+topHeadings[1].innerHTML = "About";
+
+let topParagraph = document.querySelectorAll(".top-content p");
+topParagraph[0].innerHTML = siteContent["main-content"]["features-content"];
+topParagraph[1].innerHTML = siteContent["main-content"]["about-content"];
+
+let middleImg = document.querySelector("#middle-img");
+middleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+
+
+
+//
