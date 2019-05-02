@@ -82,4 +82,13 @@ let bottomParagraph = document.querySelectorAll(".bottom-content p");
 bottomParagraph[0].innerHTML = siteContent["main-content"]["services-content"];
 bottomParagraph[1].innerHTML = siteContent["main-content"]["product-content"];
 bottomParagraph[2].innerHTML = siteContent["main-content"]["vision-content"];
-//
+
+//contact section
+let contactSection = document.querySelector(".contact h4");
+contactSection.innerHTML = "Contact";
+
+let contactInfo = document.querySelectorAll(".contact p");
+contactInfo[0].innerHTML = "123 Way 456 street<br> Somewhere, USA";
+contactInfo[1].innerHTML = "1 (888) 888-8888";
+contactInfo[2].innerHTML = "sales@greatidea.io";
+
