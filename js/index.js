@@ -92,3 +92,6 @@ contactInfo[0].innerHTML = "123 Way 456 street<br> Somewhere, USA";
 contactInfo[1].innerHTML = "1 (888) 888-8888";
 contactInfo[2].innerHTML = "sales@greatidea.io";
 
+//footer
+let footerSection = document.querySelector("footer p");
+footerSection.innerHTML = "Copyright Great Idea! 2019!";
