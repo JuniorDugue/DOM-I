@@ -47,6 +47,13 @@ let nav = document.querySelectorAll("nav a");
 nav[0].innerHTML = "Services";
 nav[1].innerHTML = "Product";
 nav[2].innerHTML = "Vision";
-nav[3].innerHTML = "Vision";
-nav[4].innerHTML = "Vision";
-nav[5].innerHTML = "Vision";
+nav[3].innerHTML = "Features";
+nav[4].innerHTML = "About";
+nav[5].innerHTML = "Contact";
+
+//header area
+let domIsAwesome = document.querySelector(".cta-text h1");
+domIsAwesome.innerHTML = "DOM <br> is <br> Awesome";
+
+let ctaButton = document.querySelector(".cta button");
+ctaButton.innerHTML = "Get Started";
