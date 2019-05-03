@@ -50,6 +50,21 @@ nav[3].innerHTML = "Features";
 nav[4].innerHTML = "About";
 nav[5].innerHTML = "Contact";
 
+let taskThree = document.createElement("a");
+nav[0].prepend(taskThree);
+
+taskThree.innerText ="WebPT6";
+taskThree.style.marginRight = "35px";
+taskThree.href="https://lambdaschool.com";
+
+const taskThreePart2 = document.createElement("a");
+nav[5].appendChild(taskThreePart2);
+taskThreePart2.innerText = "Lambda";
+taskThreePart2.style.marginLeft = "35px";
+taskThreePart2.href="https://google.com";
+taskThreePart2.style.color = "green";
+taskThree.style.color = "green";
+
 //header area
 let domIsAwesome = document.querySelector(".cta-text h1");
 domIsAwesome.innerHTML = "DOM <br> is <br> Awesome";
