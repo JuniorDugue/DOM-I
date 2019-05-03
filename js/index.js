@@ -50,6 +50,7 @@ nav[3].innerHTML = "Features";
 nav[4].innerHTML = "About";
 nav[5].innerHTML = "Contact";
 
+//task 3
 let taskThree = document.createElement("a");
 nav[0].prepend(taskThree);
 
@@ -110,3 +111,16 @@ contactInfo[2].innerHTML = "sales@greatidea.io";
 //footer
 let footerSection = document.querySelector("footer p");
 footerSection.innerHTML = "Copyright Great Idea! 2019!";
+
+//stretch
+const stretchButton = document.createElement("button");
+footerSection.appendChild(stretchButton);
+stretchButton.innerText = "Update";
+stretchButton.style.marginLeft = "20px";
+stretchButton.onclick = "refreshPage()";
+
+stretchButton.addEventListener("click", refreshPage);
+
+function refreshPage(){
+  window.location.reload();
+};
