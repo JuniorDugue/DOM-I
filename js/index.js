@@ -117,6 +117,8 @@ const stretchButton = document.createElement("button");
 footerSection.appendChild(stretchButton);
 stretchButton.innerText = "Update";
 stretchButton.style.marginLeft = "20px";
+stretchButton.style.padding = "20px";
+stretchButton.style.borderRadius = "10%";
 stretchButton.onclick = "refreshPage()";
 
 stretchButton.addEventListener("click", refreshPage);
